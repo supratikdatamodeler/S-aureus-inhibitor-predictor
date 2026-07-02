@@ -1,7 +1,6 @@
-# SA-inhibitor-Predictor — Streamlit deployment
+# SA-inhibitor-Predictor 
 
-Deployment-ready Streamlit application for research prioritization of candidate
-*Staphylococcus aureus* inhibitors.
+Prioritization of candidate for *Staphylococcus aureus* inhibitors.
 
 ## Included workflows
 
@@ -24,20 +23,6 @@ python -m venv .venv
 
 Open `http://localhost:8501`.
 
-## Deploy to Streamlit Community Cloud
-
-1. Create a GitHub repository.
-2. Upload the **contents of this folder** to the repository root. Do not upload
-   only the ZIP file.
-3. Confirm that `streamlit_app.py`, `predictor.py`, and `requirements.txt` are
-   visible at the repository root.
-4. Sign in to `https://share.streamlit.io`.
-5. Click **Create app** and choose **Yup, I have an app**.
-6. Select the GitHub repository, branch `main`, and entrypoint
-   `streamlit_app.py`.
-7. Open **Advanced settings** and select Python 3.12.
-8. No secrets are required.
-9. Click **Deploy**.
 
 ## Model interpretation
 
