@@ -21,8 +21,6 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m streamlit run streamlit_app.py
 ```
 
-Open `http://localhost:8501`.
-
 
 ## Model interpretation
 
