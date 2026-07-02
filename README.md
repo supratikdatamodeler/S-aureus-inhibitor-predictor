@@ -2,6 +2,8 @@
 
 Prioritization of candidate for *Staphylococcus aureus* inhibitors.
 
+Access to streamlit app: https://sa-inhibitor-predictor.streamlit.app/
+
 ## Included workflows
 
 - Draw a structure with the embedded Ketcher editor.
